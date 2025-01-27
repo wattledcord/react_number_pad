@@ -1,0 +1,33 @@
+{
+  "name": "react-d-numberpad",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/NumberPad.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["react","numberpad","react-numberpad","react-d-numberpad","numberpad"],
+  "author": "Madhava Reddy B",
+  "license": "ISC",
+  "description": "A simple number pad component for react",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "rollup": "^4.32.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.7.3"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
