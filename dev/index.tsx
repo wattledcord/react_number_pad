@@ -9,7 +9,7 @@ const App = () => {
     return (
         <div>
             <h1>Preview for NumberPad</h1>
-            <NumberPad onNumberClick={handleNumberClick} onClear={handleClear} />
+            <NumberPad onNumberClick={handleNumberClick} onClear={handleClear} showData={true} />
         </div>
     );
 };
