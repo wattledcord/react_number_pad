@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./NumberPad.css";
 interface NumberPadProps {
     onNumberClick: (value: number) => void;
     onClear: () => void;
@@ -17,7 +17,7 @@ export const NumberPad: React.FC<NumberPadProps> = ({ onNumberClick, onClear, on
 
     return (
         <div className="number-pad">
-            <div>{renderNumberButtons()}</div>
+            <div className="number-pad-actions">{renderNumberButtons()}</div>
             <div>
                 <button onClick={onClear}>Clear</button>
                 {onSubmit && <button onClick={onSubmit}>Submit</button>}
